@@ -1,0 +1,46 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+html, body {
+  font-family: 'Baloo Bhaina', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFF77D;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+.logo {
+  margin-left: 2%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  min-width: 20%;
+}
+
+header nav p {
+  min-width: 50%;
+}
+
+.main {
+  background: url(../img/robot.png) center;
+  background-size: contain;
+  height: 350px;
+}
+
+footer {
+  color: white;
+  background: black;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
